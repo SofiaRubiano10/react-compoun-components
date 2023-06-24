@@ -1,0 +1,27 @@
+.tab-container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 0.2rem;
+
+  .tab {
+    background-color: #b8b5b5;
+    border: 1px solid #808080;
+    padding: 0.2rem 0.6rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    span {
+      cursor: pointer;
+    }
+    &__active {
+      background-color: #8b8b8b;
+      color: #fff;
+    }
+  }
+}
+
+.tab-panel {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #808080;
+  margin-top: -1px;
+  padding: 1rem;
+}
